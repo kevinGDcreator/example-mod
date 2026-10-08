@@ -1,20 +1,12 @@
-name: Build Geode Mod
-
-on:
-  push:
-    branches: [ main, master ]
-  workflow_dispatch:
-
-jobs:
-  build:
-    name: Build Android
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Build Mod
-        uses: geode-sdk/build-geode-mod@main
-        with:
-          target: android
-          combine: true
+{
+  "geode": "3.0.0-beta.1",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074"
+  },
+  "id": "kevingd.fake240fps",
+  "name": "240 fps de KevinGD",
+  "version": "v1.0.0",
+  "developer": "Kevin GD",
+  "description": "Mod visual para notar 240 FPS en pantalla."
+}
