@@ -1,19 +1,19 @@
 {
-  "geode": "v3.0.0-beta.1",
-  "gd": {
-    "android": "2.2074"
-  },
-  "id": "kevingd.fake240fps",
-  "name": "240fps by KevinGD",
-  "version": "v1.0.0",
-  "developer": "KevinGD",
-  "description": "Mod visual para mostrar 240 FPS en pantalla.",
-  "settings": {
-    "enable-240": {
-      "name": "240fps by KevinGD",
-      "type": "bool",
-      "default": false,
-      "description": "Activa el contador visual de 240 FPS."
-    }
-  }
+	"geode": "v1.8.0",
+	"gd": {
+		"android": "2.200"
+	},
+	"id": "kevingd.fake240fps",
+	"name": "240 fps de KevinGD",
+	"version": "v1.0.0",
+	"developer": "Kevin GD",
+	"description": "Mod visual para notar 240 FPS en pantalla.",
+	"settings": {
+		"habilitar-240": {
+			"name": "240 fps de KevinGD",
+			"type": "bool",
+			"default": false,
+			"description": "Activa el contador visual de 240 FPS."
+		}
+	}
 }
