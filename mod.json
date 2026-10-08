@@ -1,7 +1,7 @@
 {
-	"geode": "v1.8.0",
+	"geode": "v3.0.0-beta.1",
 	"gd": {
-		"android": "2.200"
+		"android": "2.2074"
 	},
 	"id": "kevingd.fake240fps",
 	"name": "240 fps de KevinGD",
