@@ -13,10 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build Mod
-        uses: geode-sdk/build-geode-mod@v1
+      - name: Setup Geode CLI
+        uses: geode-sdk/cli-action@main
         with:
-          target: Android
-          sdk: v1.8.0
-          combine: true
-          
+          version: v1.8.0
+
+      - name: Build Mod
+        run: geode build --target android
+        
