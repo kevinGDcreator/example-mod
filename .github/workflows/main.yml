@@ -17,4 +17,5 @@ jobs:
         uses: geode-sdk/build-geode-mod@v3
         with:
           target: Android
+          sdk: v3.0.0-beta.1
           
