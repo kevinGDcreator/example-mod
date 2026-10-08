@@ -17,6 +17,5 @@ jobs:
         uses: geode-sdk/build-geode-mod@main
         with:
           target: Android
-          sdk: v1.8.0
           combine: true
           
